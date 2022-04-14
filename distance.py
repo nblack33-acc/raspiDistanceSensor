@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 from gpiozero import DistanceSensor
+from gpiozero import LED
 from time import sleep
 
 led = LED(25)
